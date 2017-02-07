@@ -1,0 +1,17 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+/app/src/androidTest/java/
+/app/src/test/java/
+/app/build/generated/source/r/androidTest/debug/
+/app/build/generated/source/buildConfig/androidTest/debug/
+/app/build/generated/source/rs/androidTest/debug/
+/app/build/generated/source/aidl/androidTest/debug/
+/app/src/test/java/com/prt/geoquiz/
+/app/src/androidTest/java/com/prt/geoquiz/
