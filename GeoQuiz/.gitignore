@@ -15,3 +15,5 @@
 /app/build/generated/source/aidl/androidTest/debug/
 /app/src/test/java/com/prt/geoquiz/
 /app/src/androidTest/java/com/prt/geoquiz/
+
+/.idea/
