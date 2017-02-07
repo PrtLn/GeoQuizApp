@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:viewportWidth="63"
+        android:viewportHeight="68"
+        android:width="63dp"
+        android:height="68dp">
+    <group android:name="Layer_10">
+        <path
+            android:pathData="M10.27,16.07H21.42V8A3.61,3.61,0,0,1,27,5l27.45,23.7a3.61,3.61,0,0,1,0,6.07L27,58.49a3.61,3.61,0,0,1-5.56-3v-8H10.27a4.18,4.18,0,0,1-4.18-4.18v-23A4.18,4.18,0,0,1,10.27,16.07Z"
+            android:name="cls-3" android:fillColor="#F7931E"/>
+    </group>
+</vector>
