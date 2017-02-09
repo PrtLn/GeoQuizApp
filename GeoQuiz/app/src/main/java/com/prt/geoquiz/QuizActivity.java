@@ -20,6 +20,8 @@ public class QuizActivity extends AppCompatActivity {
     private Button mPrevButton;
     private TextView mQuestionTextView;
 
+    private Button mCheatButton;
+
     private Question[] mQuestionBank = new Question[] {
             new Question(R.string.question_oceans, true),
             new Question(R.string.question_mideast, false),
@@ -31,10 +33,6 @@ public class QuizActivity extends AppCompatActivity {
     private int mCurrentIndex = 0;
 
     private void updateQuestion() {
-        // logging stack tracer
-        /*Log.d(TAG, "Updating question text for question text for question #" + mCurrentIndex,
-                new Exception());*/
-
         int question = mQuestionBank[mCurrentIndex].getTextResId();
         mQuestionTextView.setText(question);
     }
@@ -92,6 +90,14 @@ public class QuizActivity extends AppCompatActivity {
             public void onClick(View v) {
                 mCurrentIndex = (mCurrentIndex - 1) % mQuestionBank.length;
                 updateQuestion();
+            }
+        });
+
+        mCheatButton = (Button)findViewById(R.id.cheat_button);
+        mCheatButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // start CheatActivity
             }
         });
 
